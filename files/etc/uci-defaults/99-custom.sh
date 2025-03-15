@@ -10,7 +10,7 @@ echo "Starting 99-custom.sh at $(date)" >> $LOGFILE
 uci add dhcp domain
 uci set "dhcp.@domain[-1].name=time.android.com"
 uci set "dhcp.@domain[-1].ip=203.107.6.88"
-
+uci set network.lan.ipaddr="192.168.10.1"
 
 # 设置所有网口可访问网页终端
 # uci delete ttyd.@ttyd[0].interface
