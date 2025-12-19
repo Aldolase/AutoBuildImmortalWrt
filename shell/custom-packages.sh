@@ -58,3 +58,5 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
 # IPSec VPN 服务器
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
+# wireguard VPN 服务器
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-wireguard"
