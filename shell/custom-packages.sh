@@ -41,7 +41,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest luci-i18n-netspeedtest-z
 # MosDNS
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns luci-i18n-mosdns-zh-cn"
 # Turbo ACC 网络加速
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 # 应用过滤 openappfilter.com
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
 # 设置向导 by sirpdboy
@@ -59,4 +59,4 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
 # IPSec VPN 服务器
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
 # wireguard VPN 服务器
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-wireguard"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-wireguard"
